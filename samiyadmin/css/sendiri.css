@@ -1,0 +1,211 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+#wrapper
+{
+	width: 100%;
+	background: #58a5ef;
+}
+#wrapper #page-wrapper
+{
+	/*background-image: linear-gradient(-120deg,#3498db,#8e44ad);*/
+	background-color: #ffffff;
+}
+#wrapper #page-wrapper #page-inner
+{
+	/*background-image: linear-gradient(-120deg,#3498db,#8e44ad);*/
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.navbar-default
+{
+	background-color: #81b9bf;
+	/*background-image: linear-gradient(120deg,#0077c2,#42a5f5);*/
+	border: none;
+	display: block;
+}
+.navbar-default .navbar-collapse .nav
+{
+	margin-right: 100px;
+}
+.navbar-default .navbar-collapse ul li .dropdown-toggle
+{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.navbar-default .navbar-collapse ul li .dropdown-toggle .dropdown-menu
+{
+	display: block;
+}
+.navbar-default .navbar-brand
+{
+	padding-left:10px;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover
+{
+	color: #202020;
+}
+.navbar-default .navbar-brand:focus
+{
+	color: #202020;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background: #f0f0f0;
+}
+
+.navbar-side
+{
+	/*background: #424242;*/
+	background-image: linear-gradient(-200deg,#64ffda,#42a5f5,#0077c2);
+}
+.navbar-side .user
+{
+	padding: 20px;
+	text-align: center;
+}
+.navbar-side .user img
+{
+	width: 50%;
+}
+.navbar-side .user h3
+{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600px;
+}
+.navbar-side .user p
+{
+	color: #ffffff;
+	font-size: 12px;
+}
+.navbar-side ul li
+{
+	border-bottom: 1px solid rgba(107,108, 109, 0,19); 
+}
+.navbar-side ul li a
+{
+	color: #ffffff;
+}
+.navbar-side ul li a:hover
+{
+	color: #202020;
+}
+
+.navbar-side ul li a:focus
+{
+	color: #202020;
+}
+
+.navbar-side .tree > .tree-menu
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: none;
+}
+.navbar-side .tree > .tree-menu li a
+{
+	padding: 10px;
+	display: block;
+	font-size: 13px;
+}
+.navbar-side .tree > .tree-menu li a:hover
+{
+	background: #f0f0f0;
+	color: #202020;
+	text-decoration: none;
+}
+.navbar-side .tree > .tree-menu li.active a
+{
+	background: #f0f0f0;
+	color: #202020;
+}
+
+#page-wrapper
+{
+	padding: 15px;
+	background: #f3f3f3;
+}
+#page-inner
+{
+	background: #fff;
+	padding: 15px;
+}
+
+.panel-info
+{
+	border-radius: 40px;
+}
+.panel-info a
+{
+	/*padding: 10px;*/
+	margin: 10px;
+	margin-left: : 20px;
+
+}
+.panel-info .panel-heading
+{
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+.panel-info .panel-body table
+{
+	border: none;
+	margin-top: 30px;
+}
+.panel-info .panel-body thead
+{
+	background-color: #80d8ff;
+	color: #424242;
+	border:none;
+}
+.panel-info .panel-body tbody
+{
+	background-color: #ffffff;
+	border: none;
+	color: #424242;
+}
+
+.panel-primary .panel-body
+{
+	background-color: #aebfbe;
+}
+
+table thead
+{
+	background-color: #00b8d4;
+}
+
+@media(min-width: 768px)
+{
+	#page-wrapper
+	{
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1000px;
+	}
+	#page-inner
+	{
+		min-height: 800px;
+	}
+	.navbar-side
+	{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1000px;
+	}
+
+}
+.fa-yellow
+{
+	color: yellow;
+}
